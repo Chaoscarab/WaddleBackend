@@ -1,0 +1,18 @@
+
+
+how to return a json instead of a redirect:
+ --> https://stackoverflow.com/questions/46554113/passport-authenticate-return-json-instead-of-redirect-for-angular
+            
+            -->> I was able to solve it using custom callbacks from their docs. Guess I just need to understand the req/res/next better.
+            example: 
+
+            app.post('/signup', function(req, res, next){
+                passport.authenticate('local-signup', function(err, user, info){
+                    if(err){return next(err);}
+                    if(!user){return res.send({redirect: '/signup'});}
+                    req.logIn(user, function(err) {
+                        if (err) { return next(err); }
+                        return res.send({redirect: '/posts'});
+                    });
+                }) (req, res, next);
+            });

@@ -1,0 +1,26 @@
+https://blog.logrocket.com/node-js-project-architecture-best-practices/
+
+--> folder structure
+--> widely-adopted model-view-controller (MVC)
+--> pub/sub pattern --> https://blog.logrocket.com/getting-started-with-cloud-pub-sub-in-node/ 
+--> Optimize performance with caching
+--> Use gzip compression
+--> Use promises and async/await
+    ---> errer handlingc
+
+https://dev.to/zachgoll/the-ultimate-guide-to-passport-js-k2l
+
+--> cookies
+--> http headers
+--> middleware
+
+https://github.com/goldbergyoni/nodebestpractices/blob/master/README.md
+--> best practices for building node apps
+
+
+https://medium.com/dscjssstu/pooling-connections-in-node-js-mysql-9685d5c03c30
+--> working with connection pools
+
+
+https://nodejs.org/api/cluster.html
+--> work with clusters to handle seperate user workloads

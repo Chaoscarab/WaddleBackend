@@ -1,0 +1,41 @@
+
+make sure to join all sequential database queries i.e select * from table where id = x or y or z instead of a query for each x y and z
+
+Waddlev7 is the functional version
+
+note if two people send friend requests to each other and they both decline the requests the last person to send a request deletes the request from the other person.
+
+enable https;
+
+prevent sql injection (note: ensure that data that is pulled from a database isnt sql when put back in)
+
+fix logo position <--Fixed!!!
+
+<iframe> can be used to load google maps inside my app
+
+wadddlev5 has input elements for activites <---Done!!
+
+allow auto remaking of an event based on weekday (ei bowling every wednesday)
+
+google maps api is limited to 25,000 a day without using an authorization signature
+
+move from fetch to axios api calls for security reasons.
+
+insure that there is a catch when there are multiple addresses returned from geocordinate api 
+
+
+select a ORM for preventing sql injection --> consider using sequelize https://sequelize.org/
+
+insure that typescript is used in building the application to ensure typal definintion -- > https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+
+use connection pools for database connections 
+
+use typescript for mysql2 stuff --> https://github.com/sidorares/node-mysql2/blob/HEAD/documentation/en/TypeScript-Examples.md
+
+use eslint, to use with typescript npm install typescript-eslint --> https://typescript-eslint.io/#:~:text=ESLint%20and%20TypeScript%20represent%20code,ESLint%20to%20parse%20TypeScript%20syntax
+
+follow nodejs security best practices -->https://nodejs.org/en/docs/guides/security
+
+setup sql connection pooling -->https://tecadmin.net/configuring-mysql-connection-pooling-in-node-js/
+
+look into service-workers with nodejs --> https://www.linode.com/docs/guides/what-are-javascript-service-workers/

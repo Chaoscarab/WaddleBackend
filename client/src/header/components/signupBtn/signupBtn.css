@@ -1,0 +1,24 @@
+#SignupBtn{
+    float: right;
+    text-align:center;
+    margin: auto;
+    width:auto;
+    margin-right: .5em;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1em;
+    color: #65C8F5;
+    cursor: pointer;
+
+}
+
+#SignupBtn:hover{
+    color: black
+}
+
+#SignupBtn:active{
+    color: grey
+}
+
+

@@ -1,0 +1,49 @@
+-source -->https://sematext.com/blog/node-js-error-handling/
+
+
+
+
+../ErrorHandleing/baseError.js --> extends the Error node.js object
+
+../ErrorHandleing/httpsStatusCodes.js --> creates an object that holds key values of server status
+
+../ErrorHandleing/api404Error.js --> extends the Error node.js object to include the error codes from httpsStatusCodes.js
+
+add a middleware for catching all errors 
+
+example:
+
+app.post('/user', async (req, res, next) => {
+ try {
+const newUser = User.create(req.body)
+ } catch (error) {
+ next(error)
+ }
+})
+
+//this use middleware will only be called when the post request catches an error because middleware is called 
+in the order that it is declared and since the route was called the script will not progress down the chain unless next get called.
+
+app.use(errorlog)
+app.use(returnError)
+
+Restart Your App Gracefully to Handle Programmer Errors
+    --> use clusters to manage soft-restarts of the app--> https://nodejs.org/api/cluster.html
+
+note return to: 
+https://sematext.com/blog/node-js-error-handling/
+
+
+after building project present in: 
+
+---> https://www.digitalocean.com/community/tutorials/how-to-scale-node-js-applications-with-clustering
+            --> how to build a nodejs app with clusters
+            --> https://nodejs.org/api/cluster.html
+            
+            project notes: multithreadingNotes.text
+
+look into nodejs memory leaks --> https://sematext.com/blog/nodejs-memory-leaks/
+look into  owasp --https://owasp.org/www-project-proactive-controls/v3/en/c10-errors-exceptions#:~:text=Error%20and%20exception%20handling%20occurs,security%20features%20and%20framework%20code.
+
+
+

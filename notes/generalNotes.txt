@@ -1,0 +1,8 @@
+using express session with a db connection pool 
+-->https://stackoverflow.com/questions/47095749/express-session-i-am-using-expression-session-and-express-mysql-session-for-st
+
+using google adsense 
+--> https://dev.to/radhe65gupta/how-to-add-google-adsense-in-our-react-website-55j5
+
+signup form best practices
+--> https://uxplanet.org/10-best-practices-for-creating-sign-up-forms-48470ce94b16

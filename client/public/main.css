@@ -1,0 +1,351 @@
+/*!******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/global.css ***!
+  \******************************************************************/
+body{
+    background-color: #3498db;
+}
+
+.invisible{
+    display: none;
+}
+
+input{
+    outline-color: grey !important;
+}
+
+input:focus { 
+    outline-color: #65C8F5 !important;
+    border-color: #65C8F5;
+}
+
+textarea:focus { 
+    outline-color: #65C8F5 !important;
+    border-color: #65C8F5;
+    box-shadow: 0 0 10px #65C8F5;
+}
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/header/header.css ***!
+  \*************************************************************************/
+#header {
+    padding: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgb(117, 117, 117);
+    display: table;
+}
+
+.test{
+    width: 33%;
+    display: table-cell;
+}
+
+.LFBC{
+    width: 33%;
+    display: table-cell;
+}
+
+/*!***************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/header/components/logo/logo.css ***!
+  \***************************************************************************************/
+#logoContainer{
+    display: table-cell;
+}
+
+#logoIcon{
+    margin-left: 1em;
+    vertical-align: bottom;
+    display: inline-block;
+    height: 3em;
+    cursor: pointer;
+}
+
+#logoText{
+    vertical-align: bottom;
+    display: inline-block;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+    height: 1em;
+    color: #65C8F5;
+    cursor: pointer;
+}
+
+
+/*!*************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/header/components/signupBtn/signupBtn.css ***!
+  \*************************************************************************************************/
+#SignupBtn{
+    float: right;
+    text-align:center;
+    margin: auto;
+    width:auto;
+    margin-right: .5em;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1em;
+    color: #65C8F5;
+    cursor: pointer;
+
+}
+
+#SignupBtn:hover{
+    color: black
+}
+
+#SignupBtn:active{
+    color: grey
+}
+
+
+
+/*!***********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/header/components/loginBtn/loginBtn.css ***!
+  \***********************************************************************************************/
+#loginBtn{
+    float: right;
+    width:auto;
+    margin-right: .5em;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1em;
+    color: #65C8F5;
+    cursor: pointer;
+} 
+
+#loginBtn:hover{
+    color: black;
+}
+
+#loginBtn:active{
+    color: grey;
+}
+
+/*!***********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/content/loginForm/login.css ***!
+  \***********************************************************************************/
+#loginForm{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    width: 33%;
+    height: auto;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgb(117, 117, 117);
+    border-radius: 1em;
+}
+
+#userNameInContainer{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#USNLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#userNameIn{
+    display: inline-block;
+}
+
+#pwForm{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pswLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#pwInContainer{
+    position: relative;
+    display: inline-block;
+}
+
+.eyeCon{
+    position: absolute;
+    height: 1em;
+    top: 28%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+}
+
+
+
+#LgnBottomButtonBox{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#SmtLoginBtn{
+    font-family: 'Ropa Sans', sans-serif;
+    color: #65C8F5;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#SmtLoginBtn:hover{
+    color: black;
+}
+
+#SmtLoginBtn:active{
+    color: grey;
+}
+
+#FrgtPsswd{
+    display: block;
+    color:  black;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+#FrgtPsswd:hover{
+    color: grey;
+}
+
+#FrgtPsswd:active{
+    color: blue;
+}
+
+
+/*!*****************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/content/signupForm/signupForm.css ***!
+  \*****************************************************************************************/
+#signupForm{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    width: 33%;
+    height: auto;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgb(117, 117, 117);
+    border-radius: 1em;
+}
+
+#fNContainer{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fNLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#firtstNameSU{
+    display: inline-block;
+}
+
+
+#lNContainer{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lNLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#lastNameSU{
+    display: inline-block;
+}
+
+#UnContainer{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#UnLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#UsernameSU{
+    display: inline-block;
+}
+
+#SUEContainer{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#SUELabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;   
+}
+
+#emailSU{
+    display: inline-block;
+}
+
+#signupPWForm{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#signupPWLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#signupPWContainer{
+    position: relative;
+    display: inline-block;
+}
+
+#SUbtnContainer{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+#signupBtn{
+    font-family: 'Ropa Sans', sans-serif;
+    color: #65C8F5;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#signupBtn:hover{
+    color: black;
+}
+
+#signupBtn:active{
+    color: grey;
+}

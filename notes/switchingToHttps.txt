@@ -1,0 +1,6 @@
+
+express: 
+set secure cookies to true;
+
+passport: 
+--> https://stackoverflow.com/questions/20739744/passportjs-callback-switch-between-http-and-https

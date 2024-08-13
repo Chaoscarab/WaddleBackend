@@ -1,0 +1,23 @@
+#logoContainer{
+    display: table-cell;
+}
+
+#logoIcon{
+    margin-left: 1em;
+    vertical-align: bottom;
+    display: inline-block;
+    height: 3em;
+    cursor: pointer;
+}
+
+#logoText{
+    vertical-align: bottom;
+    display: inline-block;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+    height: 1em;
+    color: #65C8F5;
+    cursor: pointer;
+}
+

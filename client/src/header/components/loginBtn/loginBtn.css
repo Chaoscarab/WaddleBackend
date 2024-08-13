@@ -1,0 +1,19 @@
+#loginBtn{
+    float: right;
+    width:auto;
+    margin-right: .5em;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 2em;
+    line-height: 1em;
+    height: 1em;
+    color: #65C8F5;
+    cursor: pointer;
+} 
+
+#loginBtn:hover{
+    color: black;
+}
+
+#loginBtn:active{
+    color: grey;
+}

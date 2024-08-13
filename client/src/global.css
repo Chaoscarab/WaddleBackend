@@ -1,0 +1,22 @@
+body{
+    background-color: #3498db;
+}
+
+.invisible{
+    display: none;
+}
+
+input{
+    outline-color: grey !important;
+}
+
+input:focus { 
+    outline-color: #65C8F5 !important;
+    border-color: #65C8F5;
+}
+
+textarea:focus { 
+    outline-color: #65C8F5 !important;
+    border-color: #65C8F5;
+    box-shadow: 0 0 10px #65C8F5;
+}

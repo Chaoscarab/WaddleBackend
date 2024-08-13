@@ -1,0 +1,5 @@
+
+
+connection pool error handling with async/await
+
+throw new error causes the function to return an error object

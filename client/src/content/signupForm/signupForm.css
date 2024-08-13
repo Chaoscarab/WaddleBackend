@@ -1,0 +1,118 @@
+#signupForm{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    width: 33%;
+    height: auto;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgb(117, 117, 117);
+    border-radius: 1em;
+}
+
+#fNContainer{
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fNLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#firtstNameSU{
+    display: inline-block;
+}
+
+
+#lNContainer{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lNLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#lastNameSU{
+    display: inline-block;
+}
+
+#UnContainer{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#UnLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#UsernameSU{
+    display: inline-block;
+}
+
+#SUEContainer{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#SUELabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;   
+}
+
+#emailSU{
+    display: inline-block;
+}
+
+#signupPWForm{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#signupPWLabel{
+    width: 5em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#signupPWContainer{
+    position: relative;
+    display: inline-block;
+}
+
+#SUbtnContainer{
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+#signupBtn{
+    font-family: 'Ropa Sans', sans-serif;
+    color: #65C8F5;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#signupBtn:hover{
+    color: black;
+}
+
+#signupBtn:active{
+    color: grey;
+}
